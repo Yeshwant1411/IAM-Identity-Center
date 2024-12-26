@@ -44,7 +44,7 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
    Follow the prompts to enable IAM Identity Center with your AWS organization’s identity source. You can choose AWS SSO as your identity source or connect to an external identity provider
    (e.g.,Active Directory, Okta, etc.).
 
-3. Create the User rudraawsidentity
+2. Create the User rudraawsidentity
 
    Once IAM Identity Center is enabled, follow these steps to create a new user:
 
