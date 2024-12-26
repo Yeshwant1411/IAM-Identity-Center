@@ -4,8 +4,11 @@ It is used to be called AWS Single Sign On or SSO.
 It provides a Single login across:
 
 -All AWS accounts (Leveraging AWS Organizations)
+
 -It works with cloud based applications like Salesforce, Box, Microsoft 365 etc.,
+
 -We can use same login for EC2 instances running Windows.
+
 -As well as other SAML 2.0 enabled applications.
 
 Can use multiple isentity poviders such as Active Directory, Okta, the built-in IAM store and more.
