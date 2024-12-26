@@ -155,3 +155,6 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
    To test the configuration, you can log in as the user rudraawsidentity via the AWS SSO portal (or the respective identity provider).
    
    Ensure the user can access the EC2, S3 services, and use EC2 Instance Connect functionality.
+
+   ![Untitled design(1)](https://github.com/user-attachments/assets/2a8cccb0-d8fc-4cd1-9fec-1b92b78be798)
+
