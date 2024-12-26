@@ -28,34 +28,49 @@ So we are goin to login to the page and it will take us to the Access Portal, wh
 The recommended way to do Identity and access management through IAM Identity Center in AWS, it reduces complexity and it gives better visibility because it integrates with cloudtrail and can do audits on Single Sign On access.
 
 To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full Access, S3 Full Access, and EC2 Instance Connect, follow these steps:
+
 1. Set Up AWS IAM Identity Center (AWS SSO)
+
    Navigate to IAM Identity Center:
+
    Go to the AWS Management Console.
+
    In the search bar, type IAM Identity Center or SSO, and select it.
+
    Set up IAM Identity Center:
+
    If this is your first time, click on Enable IAM Identity Center. You will be prompted to select a directory for users.
-        Follow the prompts to enable IAM Identity Center with your AWS organization’s identity source. You can choose AWS SSO as your identity source or connect to an external identity provider (e.g., Active Directory, Okta, etc.).
+
+   Follow the prompts to enable IAM Identity Center with your AWS organization’s identity source. You can choose AWS SSO as your identity source or connect to an external identity provider
+   (e.g.,Active Directory, Okta, etc.).
 
 3. Create the User rudraawsidentity
 
-Once IAM Identity Center is enabled, follow these steps to create a new user:
+   Once IAM Identity Center is enabled, follow these steps to create a new user:
 
-  Navigate to Users:
-        In the IAM Identity Center console, go to the Users tab under User Management.
+   Navigate to Users:
 
-  Create User:
-        Click Add user.
-        Enter the username rudraawsidentity.
-        Choose the Identity Store (either AWS SSO or an external identity provider).
-        Click Next and set up any attributes for the user (e.g., email, name).
-        Choose the appropriate user type (if using AWS SSO, users can be created without email addresses).
+   In the IAM Identity Center console, go to the Users tab under User Management.
 
-  Create User and Assign to Groups:
-        Skip assigning to a group (for now) and click Next.
+   Create User:
 
-  Finish:
-        Review and create the user. You can optionally configure MFA at this stage.
-        Once the user is created, you'll be able to assign the necessary permission sets.
+   Click Add user.
+
+   Enter the username.
+
+   Choose the Identity Store (either AWS SSO or an external identity provider).
+
+   Click Next and set up any attributes for the user (e.g., email, name).
+
+   Choose the appropriate user type (if using AWS SSO, users can be created without email addresses).
+
+   Create User and Assign to Groups:
+
+   Skip assigning to a group (for now) and click Next.
+
+   Finish:Review and create the user. You can optionally configure MFA at this stage.
+
+   Once the user is created, you'll be able to assign the necessary permission sets.
 
 3. Create Permission Sets
 
