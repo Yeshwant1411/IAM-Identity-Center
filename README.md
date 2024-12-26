@@ -47,7 +47,7 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
   ![Screenshot from 2024-12-26 15-07-14](https://github.com/user-attachments/assets/b7c144f9-44d2-49f2-b3ce-0271372cf2cb)
  
 
-3. Create the User rudraawsidentity
+2. Create the User rudraawsidentity
 
    Once IAM Identity Center is enabled, follow these steps to create a new user:
 
@@ -75,7 +75,7 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
 
    Once the user is created, you'll be able to assign the necessary permission sets.
 
-4. Create Permission Sets
+3. Create Permission Sets
 
    Navigate to Permission Sets:
 
@@ -111,7 +111,7 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
 
    Review and create the permission set.
 
-5. Assign Permission Sets to the User rudraawsidentity
+4. Assign Permission Sets to the User rudraawsidentity
 
    Now that the permission sets are created, you can assign them to your user.
 
@@ -139,7 +139,7 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
    
    Click Next and then Assign.
 
-6. Test Access
+5. Test Access
 
    Login as the User:
 
