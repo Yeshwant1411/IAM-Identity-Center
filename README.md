@@ -18,5 +18,6 @@ If we need to switch between those accounts throughout our day, then basically w
 With IAM 'Identity Center':
 There will be a seperate login page just a Single login, no matter how many accounts or application you have, it will lists all the accounts if we have configured other applications such as Microsoft 365, Salesforce etc.,
 ![Screenshot from 2024-12-26 14-34-48](https://github.com/user-attachments/assets/3d7b3224-4b7c-4645-80d3-6142b56616e3)
+
 So we are goin to login to the page and it will take us to the Access Portal, where it will lists all the accounts.
 ![Untitled design](https://github.com/user-attachments/assets/2f8cbde1-5899-4920-b1b1-a3ba816b0931)
