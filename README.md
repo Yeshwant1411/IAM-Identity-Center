@@ -2,6 +2,7 @@
 It is used to be called AWS Single Sign On or SSO.
 
 It provides a Single login across:
+
 -All AWS accounts (Leveraging AWS Organizations)
 -It works with cloud based applications like Salesforce, Box, Microsoft 365 etc.,
 -We can use same login for EC2 instances running Windows.
