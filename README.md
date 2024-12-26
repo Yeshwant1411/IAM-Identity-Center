@@ -74,46 +74,72 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
 
 3. Create Permission Sets
 
-    Navigate to Permission Sets:
-        In the IAM Identity Center console, go to Permission sets under the AWS Access Management section.
+   Navigate to Permission Sets:
 
-    Create Permission Set for EC2 Full Access:
-        Click Create permission set.
-        Select the EC2 Full Access policy from the built-in policies (or create a custom policy if needed).
-        Set the permission set’s name (e.g., EC2 Full Access).
-        Review and create the permission set.
+   In the IAM Identity Center console, go to Permission sets under the AWS Access Management section.
 
-    Create Permission Set for S3 Full Access:
-        Again, click Create permission set.
-        Select the S3 Full Access policy from the built-in policies (or create a custom policy).
-        Set the permission set’s name (e.g., S3 Full Access).
-        Review and create the permission set.
+   Create Permission Set for EC2 Full Access:
 
-    Create Permission Set for EC2 Instance Connect:
-        Click Create permission set.
-        Select the EC2 Instance Connect policy from the built-in policies (or create a custom policy).
-        Set the permission set’s name (e.g., EC2 Instance Connect).
-        Review and create the permission set.
+   Click Create permission set.
 
-4. Assign Permission Sets to the User rudraawsidentity
+   Select the EC2 Full Access policy from the built-in policies (or create a custom policy if needed).
 
-Now that the permission sets are created, you can assign them to your user.
+   Set the permission set’s name (e.g., EC2 Full Access).
 
-  Navigate to User Assignments:
-        In the IAM Identity Center console, go to Assignments under AWS Access Management.
-    Assign Permission Sets:
-        Click Assign users.
-        Choose the user rudraawsidentity from the list.
-        Click Next.
-        Select the permission sets you created:
-            EC2 Full Access
-            S3 Full Access
-            EC2 Instance Connect
-        Choose the AWS Account where these permissions should apply. You can assign the permissions to all accounts or specific accounts.
-        Click Next and then Assign.
+   Review and create the permission set.
 
-5. Test Access
+   Create Permission Set for S3 Full Access:
 
-    Login as the User:
-        To test the configuration, you can log in as the user rudraawsidentity via the AWS SSO portal (or the respective identity provider).
-        Ensure the user can access the EC2, S3 services, and use EC2 Instance Connect functionality.
+   Again, click Create permission set.
+
+   Select the S3 Full Access policy from the built-in policies (or create a custom policy).
+
+   Set the permission set’s name (e.g., S3 Full Access).
+
+   Review and create the permission set.
+
+   Create Permission Set for EC2 Instance Connect:
+
+   Click Create permission set.
+
+   Select the EC2 Instance Connect policy from the built-in policies (or create a custom policy).
+
+   Set the permission set’s name (e.g., EC2 Instance Connect).
+
+   Review and create the permission set.
+
+5. Assign Permission Sets to the User rudraawsidentity
+
+   Now that the permission sets are created, you can assign them to your user.
+
+   Navigate to User Assignments:
+   
+   In the IAM Identity Center console, go to Assignments under AWS Access Management.
+   
+   Assign Permission Sets:
+   
+   Click Assign users.
+   
+   Choose the user rudraawsidentity from the list.
+   
+   Click Next.
+   
+   Select the permission sets you created:
+   
+   EC2 Full Access
+   
+   S3 Full Access
+   
+   EC2 Instance Connect
+
+   Choose the AWS Account where these permissions should apply. You can assign the permissions to all accounts or specific accounts.
+   
+   Click Next and then Assign.
+
+6. Test Access
+
+   Login as the User:
+
+   To test the configuration, you can log in as the user rudraawsidentity via the AWS SSO portal (or the respective identity provider).
+   
+   Ensure the user can access the EC2, S3 services, and use EC2 Instance Connect functionality.
