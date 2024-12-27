@@ -11,7 +11,7 @@ It provides a Single login across:
 
 -As well as other SAML 2.0 enabled applications.
 
-Can use multiple isentity poviders such as Active Directory, Okta, the built-in IAM store and more.
+Can use multiple identity poviders such as Active Directory, Okta, the built-in IAM store and more.
 
 With 'Regular' IAM:
 Lets say for example we have three AWS accounts Dev, Test, Prod.
