@@ -22,7 +22,7 @@ With IAM 'Identity Center':
 There will be a seperate login page just a Single login, no matter how many accounts or application you have, it will lists all the accounts if we have configured other applications such as Microsoft 365, Salesforce etc.,
 ![Screenshot from 2024-12-26 14-34-48](https://github.com/user-attachments/assets/3d7b3224-4b7c-4645-80d3-6142b56616e3)
 
-So we are goin to login to the page and it will take us to the Access Portal, where it will lists all the accounts.
+So we are going to login to the page and it will take us to the Access Portal, where it will lists all the accounts.
 ![Untitled design](https://github.com/user-attachments/assets/2f8cbde1-5899-4920-b1b1-a3ba816b0931)
 
 The recommended way to do Identity and access management through IAM Identity Center in AWS, it reduces complexity and it gives better visibility because it integrates with cloudtrail and can do audits on Single Sign On access.
