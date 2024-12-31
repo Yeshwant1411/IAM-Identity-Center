@@ -21,9 +21,9 @@ To create a policy in AWS that allows a user to only read EC2 instances, you nee
 
 Explanation:
 
-    Action: Specifies the EC2 actions the user is allowed to perform. Here, we're allowing "Describe" actions (e.g., DescribeInstances, DescribeInstanceStatus, etc.) which give read-only access to information about instances and related resources.
-    Effect: The effect is set to Allow, meaning the actions listed will be permitted.
-    Resource: We specify "*" to indicate that the user can perform these actions on all EC2 instances in the account.
+  Action: Specifies the EC2 actions the user is allowed to perform. Here, we're allowing "Describe" actions (e.g., DescribeInstances, DescribeInstanceStatus, etc.) which give   read-only access to information about instances and related resources.
+  Effect: The effect is set to Allow, meaning the actions listed will be permitted.
+  Resource: We specify "*" to indicate that the user can perform these actions on all EC2 instances in the account.
 
 Steps to implement this:
 
