@@ -1,4 +1,4 @@
-#Creating Custom Permissions using IAM
+# Creating Custom Permissions using IAM
 
 To create a policy in AWS that allows a user to only read EC2 instances, you need to define a policy that grants permission for "Describe" actions but not any actions that modify or create instances.
 
