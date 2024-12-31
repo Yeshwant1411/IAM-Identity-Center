@@ -2,22 +2,8 @@
 
 To create a policy in AWS that allows a user to only read EC2 instances, you need to define a policy that grants permission for "Describe" actions but not any actions that modify or create instances.
 
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "ec2:DescribeInstances",
-        "ec2:DescribeInstanceStatus",
-        "ec2:DescribeImages",
-        "ec2:DescribeRegions",
-        "ec2:DescribeAvailabilityZones"
-      ],
-      "Resource": "*"
-    }
-  ]
-}
+![Screenshot from 2024-12-31 06-53-28](https://github.com/user-attachments/assets/e732bf87-9a7c-4f3b-b578-0f8cd6c46e97)
+
 
 Explanation:
 
