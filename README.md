@@ -46,7 +46,9 @@ To create an IAM Identity Center (AWS SSO) with the permission sets for EC2 Full
 
   ![Screenshot from 2024-12-26 15-07-14](https://github.com/user-attachments/assets/b7c144f9-44d2-49f2-b3ce-0271372cf2cb)
  
+  ![Screenshot from 2025-01-06 06-25-50](https://github.com/user-attachments/assets/57faa28c-91f7-45b9-98c6-de7d2da55d8b)
 
+   
 2. Create the User rudraawsidentity
 
    Once IAM Identity Center is enabled, follow these steps to create a new user:
